@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 11</title>
+</head>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+
+    height: 100px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  nav div{
+    height: 50px;
+    width: 50%;
+  }
+
+  .left{
+    /* background-color: orange; */
+    width: 100px;
+    text-align: center;
+  }
+  .right{
+    /* background-color: blue; */
+    width: 300px;
+    /* display: flex; */
+
+  }
+  .prent{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+a{
+  text-decoration: none;
+  background-color: azure;
+
+}
+a:hover {
+  background-color: whitesmoke;
+  color: maroon;
+  padding: 5px;
+  width: 150px;
+}
+
+  aside{
+    width: 150px;
+    height: 800px;
+    background-color: blueviolet;
+   
+  }
+</style>
+<body>
+  <nav>
+    <div class="left">
+      <img src="https://picsum.photos/50" alt="">
+    </div>
+    <div class="right">
+      <ul class="prent">
+        <li class="child"><a href="#">Home</a></li>
+        <li class="child"><a href="#">About</a></li>
+        <li class="child"><a href="#">Contant</a></li>
+      </ul>
+    </div>
+  </nav>
+  <aside></aside>
+</body>
+</html>
